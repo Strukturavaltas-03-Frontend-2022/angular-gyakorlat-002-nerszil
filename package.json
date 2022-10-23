@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "node run-esbuild-v2.js",
+    "start": "ng serve -o",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test:01": "ng test --browsers ChromeHeadless --watch false --include app/app.component.spec.ts",
